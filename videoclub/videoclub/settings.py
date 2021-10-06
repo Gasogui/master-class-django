@@ -84,6 +84,7 @@ WSGI_APPLICATION = 'videoclub.wsgi.application'
     }
 } """
 
+
 DATABASES = db.MYSQL
 
 # Password validation

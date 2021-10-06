@@ -91,6 +91,10 @@ _**Nota:** los comandos se ejecutaron el intérprete de comando de Windows, (en 
 
 - videoclub> python manage.py migrate
 
+15- creación de un archivo requirements.txt
+
+- videoclub> pip freeze > requirements\requirements.txt
+
 ## Despliegue 📦
 
 _Agrega notas adicionales sobre como hacer deploy_
