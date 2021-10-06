@@ -11,6 +11,7 @@ _Este proyecto es una breve introducción sobre django, entornos virtuales e ins
 - M-V-T
 
 **Entornos virtuales e Instalación**
+
 -Encapsulaciones o aislamientos de dependencias.
 
 ## Comenzando 🚀
