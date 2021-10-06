@@ -24,6 +24,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 Nota: los comandos se ejecutaron bajo el CMD de Windows, después de la creación de la carpeta se inicializo el repositorio de git y github, se configuro el archivo gititnore.
 
 1- Crear la carpeta para instalar el entorno virtual
+
 ..\Projects> mkdir master-class-django
 ..\Projects> cd master-class-django
 
