@@ -22,7 +22,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Instalación 🔧
 
-_**Nota:** los comandos se ejecutaron el intérprete de comando de Windows, (en inglés, 'Command Prompt', también conocido como cmd.exe o simplemente cmd), después de la creación de la carpeta se inicializo el repositorio de git y github, se configuro el archivo gititnore._
+_**Nota:** los comandos se ejecutaron el intérprete de comando de Windows, (en inglés, 'Command Prompt', también conocido como **cmd.exe** o simplemente **cmd**), después de la creación de la carpeta se inicializo el repositorio de git y github, se configuro el archivo gititnore._
 
 1- Crear la carpeta para instalar el entorno virtual:
 
@@ -69,9 +69,10 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-- [Maven](https://maven.apache.org/) - Manejador de dependencias
-- [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+- [python](https://www.python.org/) - Usado como
+  Lenguaje de programación
+- [django](https://www.djangoproject.com/) - El framework web usado
+- [pip](https://pypi.org/project/Django/) - Sistema de gestión de paquetes
 
 ## Autores ✒️
 
