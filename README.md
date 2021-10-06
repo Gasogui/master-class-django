@@ -12,7 +12,7 @@ _Este proyecto es una breve introducción sobre django, entornos virtuales e ins
 
 **Entornos virtuales e Instalación**
 
--Encapsulaciones o aislamientos de dependencias.
+- Encapsulaciones o aislamientos de dependencias.
 
 ## Comenzando 🚀
 
@@ -22,37 +22,44 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Instalación 🔧
 
-Nota: los comandos se ejecutaron bajo el CMD de Windows, después de la creación de la carpeta se inicializo el repositorio de git y github, se configuro el archivo gititnore.
+_**Nota:** los comandos se ejecutaron bajo el CMD de Windows, después de la creación de la carpeta se inicializo el repositorio de git y github, se configuro el archivo gititnore._
 
-1- Crear la carpeta para instalar el entorno virtual
+1- Crear la carpeta para instalar el entorno virtual:
 
-..\Projects> mkdir master-class-django  
-..\Projects> cd master-class-django
+- Projects> mkdir master-class-django
+- Projects> cd master-class-django
 
-2- Instalamos el entorno virtual  
-..master-class-django> python -m venv venv
+2- Instalamos el entorno virtual:
 
-3- Activar el entorno virtual  
-..master-class-django> cd venv\Scripts\activate  
-#Comando para activar el venv: activate  
-#Comando para desactivar el venv: deactivate
+- master-class-django> python -m venv venv
 
-4- Instalar Django en el entorno virtual  
-..Scripts> pip install django
+3- Activar el entorno virtual:
 
-5- verificamos si django está instalado  
-..Scripts> python -m django –-version
+- master-class-django> cd venv\Scripts\activate
+- Comando para activar el venv: activate
+- Comando para desactivar el venv: deactivate
 
-6- Crea un nuevo proyecto django  
-..Scripts> cd ../../  
-..master-class-django> django-admin startproject videoclub
+4- Instalar Django en el entorno virtual:
 
-7- Nueva aplicación  
-master-class-django> cd videoclub  
-..videoclub> python manage.py startapp movie
+- Scripts> pip install django
 
-8- El servidor de desarrollo  
-..videoclub> python manage.py runserver
+5- Verificamos si django está instalado:
+
+- Scripts> python -m django –-version
+
+6- Crea un nuevo proyecto en django:
+
+- Scripts> cd ../../
+- master-class-django> django-admin startproject videoclub
+
+7- Crea una nueva aplicación en django:
+
+- master-class-django> cd videoclub
+- videoclub> python manage.py startapp movie
+
+8- Inicializar el servidor de desarrollo:
+
+- videoclub> python manage.py runserver
 
 ## Despliegue 📦
 
