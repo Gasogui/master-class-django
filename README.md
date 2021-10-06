@@ -22,7 +22,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Instalación 🔧
 
-_**Nota:** los comandos se ejecutaron bajo el CMD de Windows, después de la creación de la carpeta se inicializo el repositorio de git y github, se configuro el archivo gititnore._
+_**Nota:** los comandos se ejecutaron el intérprete de comando de Windows, (en inglés, 'Command Prompt', también conocido como cmd.exe o simplemente cmd), después de la creación de la carpeta se inicializo el repositorio de git y github, se configuro el archivo gititnore._
 
 1- Crear la carpeta para instalar el entorno virtual:
 
