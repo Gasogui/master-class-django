@@ -1,17 +1,17 @@
 # MasterClass-Django (videoclub)
 
-Este proyecto es una breve introducción sobre django, entornos virtuales e instalación, a través de un proyecto llamado videoclub. Espero te sea de utilidad.
+_Este proyecto es una breve introducción sobre django, entornos virtuales e instalación, a través de un proyecto llamado videoclub. Espero te sea de utilidad._
 
-Qué es Django?
+**¿Qué es Django?**
 
-• Framework web orientado al backend
-• World Company de Lawrence, Kansas
-• 2005 – Django Reinhardt
-• Don't Repeat Yourself
-• M-V-T
+- Framework web orientado al backend
+- World Company de Lawrence, Kansas
+- 2005 – Django Reinhardt
+- Don't Repeat Yourself
+- M-V-T
 
-Entornos virtuales e Instalación
-Encapsulaciones o aislamientos de dependencias.
+**Entornos virtuales e Instalación**
+-Encapsulaciones o aislamientos de dependencias.
 
 ## Comenzando 🚀
 
@@ -25,32 +25,32 @@ Nota: los comandos se ejecutaron bajo el CMD de Windows, después de la creació
 
 1- Crear la carpeta para instalar el entorno virtual
 
-..\Projects> mkdir master-class-django
+..\Projects> mkdir master-class-django  
 ..\Projects> cd master-class-django
 
-2- Instalamos el entorno virtual
+2- Instalamos el entorno virtual  
 ..master-class-django> python -m venv venv
 
-3- Activar el entorno virtual
-..master-class-django> cd venv\Scripts\activate
-#Comando para activar el venv: activate
+3- Activar el entorno virtual  
+..master-class-django> cd venv\Scripts\activate  
+#Comando para activar el venv: activate  
 #Comando para desactivar el venv: deactivate
 
-4- Instalar Django en el entorno virtual
+4- Instalar Django en el entorno virtual  
 ..Scripts> pip install django
 
-5- verificamos si django está instalado
+5- verificamos si django está instalado  
 ..Scripts> python -m django –-version
 
-6- Crea un nuevo proyecto django
-..Scripts> cd ../../
+6- Crea un nuevo proyecto django  
+..Scripts> cd ../../  
 ..master-class-django> django-admin startproject videoclub
 
-7- Nueva aplicación
-master-class-django> cd videoclub
+7- Nueva aplicación  
+master-class-django> cd videoclub  
 ..videoclub> python manage.py startapp movie
 
-8- El servidor de desarrollo
+8- El servidor de desarrollo  
 ..videoclub> python manage.py runserver
 
 ## Despliegue 📦
