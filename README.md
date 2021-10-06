@@ -1,27 +1,27 @@
 # MasterClass-Django (Movie)
 
-MasterClass-Django (videoclub)
-Este proyecto es una breve introducción sobre django, entornos virtuales e instalación, a través de un proyecto llamado
-videoclub. Espero te sea de utilidad.
+Este proyecto es una breve introducción sobre django, entornos virtuales e instalación, a través de un proyecto llamado videoclub. Espero te sea de utilidad.
 
 Qué es Django?
 
-• Framework web orientado al backend • World Company de Lawrence, Kansas • 2005 – Django Reinhardt • Don’t Repeat
-Yourself • M-V-T
+• Framework web orientado al backend
+• World Company de Lawrence, Kansas
+• 2005 – Django Reinhardt
+• Don't Repeat Yourself
+• M-V-T
 
-Entornos virtuales e Instalación Encapsulaciones o aislamientos de dependencias.
+Entornos virtuales e Instalación
+Encapsulaciones o aislamientos de dependencias.
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos
-de desarrollo y pruebas._
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Instalación 🔧
 
-Nota: los comandos se ejecutaron bajo el CMD de Windows, después de la creación de la carpeta se inicializo el
-repositorio de git y github, se configuro el archivo gititnore.
+Nota: los comandos se ejecutaron bajo el CMD de Windows, después de la creación de la carpeta se inicializo el repositorio de git y github, se configuro el archivo gititnore.
 
 1- Crear la carpeta para instalar el entorno virtual
 
@@ -33,8 +33,8 @@ master-class-django> python -m venv venv
 
 3- Activar el entorno virtual
 master-class-django> cd venv\Scripts\activate
-#Comando para activar el venv: activate
-#Comando para desactivar el venv: deactivate
+Comando para activar el venv: activate
+Comando para desactivar el venv: deactivate
 
 4- Instalar Django en el entorno virtual
 Scripts> pip install django
@@ -51,7 +51,8 @@ master-class-django> cd videoclub
 videoclub> python manage.py startapp movie
 
 8- El servidor de desarrollo
-videoclub> python manage.py runserver
+
+> python manage.py runserver
 
 ## Despliegue 📦
 
@@ -72,8 +73,7 @@ _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
 - **Andrés Villanueva** - _Trabajo Inicial_ - [villanuevand](https://github.com/villanuevand)
 - **Fulanito Detal** - _Documentación_ - [fulanitodetal](#fulanito-de-tal)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han
-participado en este proyecto.
+También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto.
 
 ## Licencia 📄
 
