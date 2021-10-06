@@ -1,4 +1,4 @@
-# MasterClass-Django (Movie)
+# MasterClass-Django (videoclub)
 
 Este proyecto es una breve introducción sobre django, entornos virtuales e instalación, a través de un proyecto llamado videoclub. Espero te sea de utilidad.
 
