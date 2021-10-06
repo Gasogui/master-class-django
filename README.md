@@ -97,7 +97,7 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+_Las herramientas utilizadas para este proyecto fueron:_
 
 - [python](https://www.python.org/) - Usado como
   Lenguaje de programación

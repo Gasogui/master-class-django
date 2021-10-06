@@ -3,6 +3,20 @@ from django.db import models
 # Create your models here.
 
 
+class Genres (models.Model):
+    id = models.AutoField(primary_key=True)
+    code = models.CharField('Código', max_length=4, blank=False, null=False)
+    title = models.CharField('Género', max_length=20, blank=False, null=False)
+
+    def __str__(self):
+        return '%s' % (self.title)
+
+    class Meta:
+        ordering = ['title']
+        verbose_name = 'Género'
+        verbose_name_plural = 'Géneros'
+
+
 class Movie (models.Model):
     id = models.AutoField(primary_key=True)
     code = models.CharField('Código', max_length=4, blank=False, null=False)
@@ -19,6 +33,7 @@ class Movie (models.Model):
         'Fecha de ingreso', auto_now=False, auto_now_add=True)
     fecha_modificacion = models.DateField(
         'Fecha de modificación', auto_now=True)
+    genres_id = models.ManyToManyField(Genres, verbose_name='Género(s)')
 
     def __str__(self):
         return '%s' % (self.title)
@@ -27,18 +42,3 @@ class Movie (models.Model):
         ordering = ['title']
         verbose_name = 'Película'
         verbose_name_plural = 'Películas'
-
-
-class Genres (models.Model):
-    id = models.AutoField(primary_key=True)
-    code = models.CharField('Código', max_length=4, blank=False, null=False)
-    title = models.CharField('Titulo', max_length=20, blank=False, null=False)
-    movie_id = models.ManyToManyField(Movie, verbose_name='Película(s)')
-
-    def __str__(self):
-        return '%s' % (self.title)
-
-    class Meta:
-        ordering = ['title']
-        verbose_name = 'Género'
-        verbose_name_plural = 'Géneros'
