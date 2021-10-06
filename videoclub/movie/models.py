@@ -35,12 +35,10 @@ class Genres (models.Model):
     title = models.CharField('Titulo', max_length=20, blank=False, null=False)
     movie_id = models.ManyToManyField(Movie, verbose_name='Película(s)')
 
+    def __str__(self):
+        return '%s' % (self.title)
 
-def __str__(self):
-    return '%s' % (self.title)
-
-
-class Meta:
-    ordering = ['title']
-    verbose_name = 'Género'
-    verbose_name_plural = 'Géneros'
+    class Meta:
+        ordering = ['title']
+        verbose_name = 'Género'
+        verbose_name_plural = 'Géneros'
