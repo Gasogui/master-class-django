@@ -75,7 +75,7 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 ## Autores ✒️
 
-- **Andrés Villanueva** - _Trabajo Inicial_ - [villanuevand](https://github.com/villanuevand)
+- **Guillermo Garcia Soto** - [Gasogui](https://github.com/Gasogui)
 
 ## Expresiones de Gratitud 🎁
 
