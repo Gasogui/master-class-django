@@ -1,8 +1,5 @@
 # Archivo encargado de manejar las conexiones con las diferentes bases de datos
 
-""" import os
-
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) """
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -11,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SQLITE = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
@@ -33,7 +30,7 @@ POSTGRESQL = {
 MYSQL = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'db',
+        'NAME': 'moviedb',
         'USER': 'root',
         'PASSWORD': 'gasogui1972',
         'HOST': 'localhost',

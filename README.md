@@ -61,6 +61,36 @@ _**Nota:** los comandos se ejecutaron el intérprete de comando de Windows, (en 
 
 - videoclub> python manage.py runserver
 
+9- Configurar MySQL con Django:
+
+- videoclub> pip install mysqlclient
+- **Nota:** Se debe crear la db (moviedb) en el gestor de base de datos de mysql
+
+10- Ejecutar las migraciones para que se aplique en la base de datos:
+
+- videoclub> python manage.py migrate
+
+11- Creación del súper usuario:
+
+- videoclub> python manage.py createsuperuser
+- Nombre de usuario (leave blank to use 'xxxxxxx'): admin
+- Dirección de correo electrónico: xxxxxxa@hotmail.com
+- Password:
+- Password (again):
+- Superuser created successfully.
+
+12- Inicializar el servidor de desarrollo:
+
+- videoclub> python manage.py runserver
+
+13- Aplicamos la migración de los modelos _(Crea el archivo de migración )_:
+
+- videoclub> python manage.py makemigrations
+
+14- Ejecutar las migraciones para que se aplique en la base de datos:
+
+- videoclub> python manage.py migrate
+
 ## Despliegue 📦
 
 _Agrega notas adicionales sobre como hacer deploy_
