@@ -84,4 +84,4 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 - Da las gracias públicamente 🤓.
 - etc.
 
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+⌨️ con ❤️ por [Gasogui](https://github.com/Gasogui) 😊
