@@ -24,35 +24,33 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 Nota: los comandos se ejecutaron bajo el CMD de Windows, después de la creación de la carpeta se inicializo el repositorio de git y github, se configuro el archivo gititnore.
 
 1- Crear la carpeta para instalar el entorno virtual
-
-> mkdir master-class-django
-> cd master-class-django
+..\Projects> mkdir master-class-django
+..\Projects> cd master-class-django
 
 2- Instalamos el entorno virtual
-master-class-django> python -m venv venv
+..master-class-django> python -m venv venv
 
 3- Activar el entorno virtual
-master-class-django> cd venv\Scripts\activate
-Comando para activar el venv: activate
-Comando para desactivar el venv: deactivate
+..master-class-django> cd venv\Scripts\activate
+#Comando para activar el venv: activate
+#Comando para desactivar el venv: deactivate
 
 4- Instalar Django en el entorno virtual
-Scripts> pip install django
+..Scripts> pip install django
 
 5- verificamos si django está instalado
-Scripts> python -m django –-version
+..Scripts> python -m django –-version
 
 6- Crea un nuevo proyecto django
-Scripts> cd ../../
-master-class-django> django-admin startproject videoclub
+..Scripts> cd ../../
+..master-class-django> django-admin startproject videoclub
 
 7- Nueva aplicación
 master-class-django> cd videoclub
-videoclub> python manage.py startapp movie
+..videoclub> python manage.py startapp movie
 
 8- El servidor de desarrollo
-
-> python manage.py runserver
+..videoclub> python manage.py runserver
 
 ## Despliegue 📦
 
@@ -68,16 +66,7 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
 - **Andrés Villanueva** - _Trabajo Inicial_ - [villanuevand](https://github.com/villanuevand)
-- **Fulanito Detal** - _Documentación_ - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto.
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
 ## Expresiones de Gratitud 🎁
 
@@ -85,7 +74,5 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 - Invita una cerveza 🍺 o un café ☕ a alguien del equipo.
 - Da las gracias públicamente 🤓.
 - etc.
-
----
 
 ⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
